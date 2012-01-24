@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041F4A5514C4945B00F82A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041F4A5414C4945B00F82A1C /* Foundation.framework */; };
+		041F4A5814C4945B00F82A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F4A5714C4945B00F82A1C /* main.m */; };
+		041F4A6414C4950A00F82A1C /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F4A6314C4950A00F82A1C /* Song.m */; };
+		041F4A6714C4951200F82A1C /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F4A6614C4951200F82A1C /* Artist.m */; };
+		041F4A7114C49C2400F82A1C /* Songs.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 041F4A6814C49A3900F82A1C /* Songs.plist */; };
+		041F4A7914C4A14900F82A1C /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F4A7814C4A14900F82A1C /* MusicLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		041F4A4E14C4945B00F82A1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		041F4A7014C49C1D00F82A1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				041F4A7114C49C2400F82A1C /* Songs.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		041F4A5014C4945B00F82A1C /* FunWithArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FunWithArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		041F4A5414C4945B00F82A1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041F4A5714C4945B00F82A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041F4A5A14C4945B00F82A1C /* FunWithArrays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunWithArrays-Prefix.pch"; sourceTree = "<group>"; };
+		041F4A6214C4950A00F82A1C /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		041F4A6314C4950A00F82A1C /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		041F4A6514C4951200F82A1C /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		041F4A6614C4951200F82A1C /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		041F4A6814C49A3900F82A1C /* Songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Songs.plist; sourceTree = "<group>"; };
+		041F4A7714C4A14900F82A1C /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		041F4A7814C4A14900F82A1C /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041F4A4D14C4945B00F82A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F4A5514C4945B00F82A1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403AC5D14C4D2C000EDC16E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				041F4A6814C49A3900F82A1C /* Songs.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0403AC5F14C4D2F100EDC16E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041F4A6214C4950A00F82A1C /* Song.h */,
+				041F4A6314C4950A00F82A1C /* Song.m */,
+				041F4A6514C4951200F82A1C /* Artist.h */,
+				041F4A6614C4951200F82A1C /* Artist.m */,
+				041F4A7714C4A14900F82A1C /* MusicLibrary.h */,
+				041F4A7814C4A14900F82A1C /* MusicLibrary.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		041F4A4514C4945B00F82A1C = {
+			isa = PBXGroup;
+			children = (
+				041F4A5614C4945B00F82A1C /* FunWithArrays */,
+				041F4A5314C4945B00F82A1C /* Frameworks */,
+				041F4A5114C4945B00F82A1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041F4A5114C4945B00F82A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041F4A5014C4945B00F82A1C /* FunWithArrays */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041F4A5314C4945B00F82A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041F4A5414C4945B00F82A1C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041F4A5614C4945B00F82A1C /* FunWithArrays */ = {
+			isa = PBXGroup;
+			children = (
+				041F4A5714C4945B00F82A1C /* main.m */,
+				0403AC5F14C4D2F100EDC16E /* Model */,
+				0403AC5D14C4D2C000EDC16E /* Resources */,
+				041F4A5914C4945B00F82A1C /* Supporting Files */,
+			);
+			path = FunWithArrays;
+			sourceTree = "<group>";
+		};
+		041F4A5914C4945B00F82A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041F4A5A14C4945B00F82A1C /* FunWithArrays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041F4A4F14C4945B00F82A1C /* FunWithArrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F4A5F14C4945B00F82A1C /* Build configuration list for PBXNativeTarget "FunWithArrays" */;
+			buildPhases = (
+				041F4A4C14C4945B00F82A1C /* Sources */,
+				041F4A4D14C4945B00F82A1C /* Frameworks */,
+				041F4A4E14C4945B00F82A1C /* CopyFiles */,
+				041F4A7014C49C1D00F82A1C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunWithArrays;
+			productName = FunWithArrays;
+			productReference = 041F4A5014C4945B00F82A1C /* FunWithArrays */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041F4A4714C4945B00F82A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 041F4A4A14C4945B00F82A1C /* Build configuration list for PBXProject "FunWithArrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 041F4A4514C4945B00F82A1C;
+			productRefGroup = 041F4A5114C4945B00F82A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041F4A4F14C4945B00F82A1C /* FunWithArrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041F4A4C14C4945B00F82A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F4A5814C4945B00F82A1C /* main.m in Sources */,
+				041F4A6414C4950A00F82A1C /* Song.m in Sources */,
+				041F4A6714C4951200F82A1C /* Artist.m in Sources */,
+				041F4A7914C4A14900F82A1C /* MusicLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		041F4A5D14C4945B00F82A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		041F4A5E14C4945B00F82A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		041F4A6014C4945B00F82A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunWithArrays/FunWithArrays-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		041F4A6114C4945B00F82A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunWithArrays/FunWithArrays-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041F4A4A14C4945B00F82A1C /* Build configuration list for PBXProject "FunWithArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F4A5D14C4945B00F82A1C /* Debug */,
+				041F4A5E14C4945B00F82A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F4A5F14C4945B00F82A1C /* Build configuration list for PBXNativeTarget "FunWithArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F4A6014C4945B00F82A1C /* Debug */,
+				041F4A6114C4945B00F82A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041F4A4714C4945B00F82A1C /* Project object */;
+}

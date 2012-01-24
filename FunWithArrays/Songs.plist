@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+        <key>name</key>
+		<string>Polish Girl</string>
+		<key>genre</key>
+		<string>Electronic</string>
+		<key>rating</key>
+		<string>4</string>
+		<key>artist</key>
+		<dict>
+			<key>name</key>
+			<string>Neon Indian</string>
+		</dict>
+	</dict>
+    <dict>
+        <key>name</key>
+		<string>Arcade Blues</string>
+		<key>genre</key>
+		<string>Electronic</string>
+		<key>rating</key>
+		<string>3</string>
+		<key>artist</key>
+		<dict>
+			<key>name</key>
+			<string>Neon Indian</string>
+		</dict>
+	</dict>
+    <dict>
+        <key>name</key>
+		<string>Fallout</string>
+		<key>genre</key>
+		<string>Electronic</string>
+		<key>rating</key>
+		<string>5</string>
+		<key>artist</key>
+		<dict>
+			<key>name</key>
+			<string>Neon Indian</string>
+		</dict>
+	</dict>
+    <dict>
+        <key>name</key>
+		<string>Forward Motion</string>
+		<key>genre</key>
+		<string>Rock</string>
+		<key>rating</key>
+		<string>4</string>
+		<key>artist</key>
+		<dict>
+			<key>name</key>
+			<string>Meese</string>
+		</dict>
+	</dict>
+    <dict>
+        <key>name</key>
+		<string>Broadcast</string>
+		<key>genre</key>
+		<string>Rock</string>
+		<key>rating</key>
+		<string>5</string>
+		<key>artist</key>
+		<dict>
+			<key>name</key>
+			<string>Meese</string>
+		</dict>
+	</dict>
+</array>
+</plist>
