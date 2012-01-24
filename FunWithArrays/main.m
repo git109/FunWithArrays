@@ -23,12 +23,19 @@ int main (int argc, const char * argv[])
         Song *songA1 = [[Song alloc] initWithName:@"Polish Girl" genre:@"Electronic" rating:@"4" artist:neonIndian];
         Song *songA2 = [[Song alloc] initWithName:@"Arcade Blues" genre:@"Electronic" rating:@"3" artist:neonIndian];
         Song *songA3 = [[Song alloc] initWithName:@"Fallout" genre:@"Electronic" rating:@"5" artist:neonIndian];
+        [neonIndian release];
         
         Song *songB1 = [[Song alloc] initWithName:@"Forward Motion" genre:@"Rock" rating:@"4" artist:meese];
         Song *songB2 = [[Song alloc] initWithName:@"Broadcast" genre:@"Rock" rating:@"5" artist:meese];
+        [meese release];
         
         NSArray *array = [NSArray arrayWithObjects:songA1, songA2, songA3, songB1, songB2, nil];
-        
+        [songA1 release];
+        [songA2 release];
+        [songA3 release];
+        [songB1 release];
+        [songB2 release];
+
         NSLog(@"%@", array);
         
         // Part 2: Reading from a plist //
@@ -48,6 +55,7 @@ int main (int argc, const char * argv[])
         
         // Part 5: Sorting //
         
+        [musicLibrary release];
     }
     return 0;
 }

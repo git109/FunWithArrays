@@ -26,7 +26,7 @@
         // Fast enumeration //
         for (NSDictionary *currDict in songDicts)
         {
-            Song *song = [[Song alloc] initWithDictionary:currDict];
+            Song *song = [[[Song alloc] initWithDictionary:currDict] autorelease];
             [_songs addObject:song];
 		}
     }
@@ -35,19 +35,19 @@
 
 - (NSArray *)searchWithSearchString:(NSString *)searchString
 {
-    NSMutableArray *searchResults = [[NSMutableArray alloc] init];
+    NSMutableArray *searchResults = [NSMutableArray array];
     
     if ([searchString length] !=0) 
     {
         [searchResults addObjectsFromArray:[self.songs filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name CONTAINS[cd] %@ OR artist.name CONTAINS[cd] %@", searchString, searchString]]];
     }
 
-    return [searchResults copy]; // calling copy creates an immutable array.
+    return [[searchResults copy] autorelease]; // calling copy creates an immutable array.
 }
 
 - (NSArray *)songsWithRatingGreaterThanOrEqualTo:(int)rating
 {
-    NSMutableArray *songsArray = [[NSMutableArray alloc] init];
+    NSMutableArray *songsArray = [NSMutableArray array];
     for (Song *song in self.songs)
     {
         if ([song.rating intValue] >= rating)
@@ -55,7 +55,7 @@
             [songsArray addObject:song];
         }
     }
-    return [songsArray copy];
+    return [[songsArray copy] autorelease];
 }
 
 @end

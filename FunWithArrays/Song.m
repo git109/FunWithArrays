@@ -41,6 +41,7 @@
     if ([key isEqualToString:@"artist"]) {
         Artist *artist = [[Artist alloc] initWithDictionary:value];
         value = artist;
+        [artist autorelease];
     }
     [super setValue:value forKey:key];
 }
